@@ -1,1 +1,1 @@
-{hp = hp - (instance_nearest(x,y,obj_Bandit).dmg * 0.5)};
+hp = hp - other.dmg * 0.1;
