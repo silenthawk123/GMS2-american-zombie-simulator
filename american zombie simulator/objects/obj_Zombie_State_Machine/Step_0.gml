@@ -31,3 +31,14 @@ else
 if(state = states.alert && instance_exists(obj_Player))
 {if (distance_to_object(nearestEnemy) > 300)
 {state = states.idle}};
+
+//fixing a bug
+if (distance_to_object(nearestEnemy) < 30)
+	{state = states.attack};
+	else
+	{
+		if(state = states.attack)
+		{
+			state = states.idle
+		}
+	}
