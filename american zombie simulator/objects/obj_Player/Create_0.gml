@@ -10,6 +10,7 @@ reloading = 0;
 dmg = 3;
 mDmg = 5;
 AUTO = false;
+global.clip = global.Clipsize[gun];
 alarm_set(2,4)
 
 //Declaring x and y Weapon Variables
