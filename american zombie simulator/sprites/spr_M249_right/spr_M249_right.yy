@@ -6,10 +6,10 @@
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 55,
-    "bbox_left": 32,
-    "bbox_right": 159,
-    "bbox_top": 6,
+    "bbox_bottom": 57,
+    "bbox_left": 0,
+    "bbox_right": 191,
+    "bbox_top": 2,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
@@ -47,8 +47,19 @@
     ],
     "gridX": 2,
     "gridY": 2,
-    "height": 58,
+    "height": 60,
     "layers": [
+        {
+            "id": "5ea6c639-2f7b-4ae6-9d15-8acb39d0b799",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "e1394334-5904-4b91-bba5-c41da3215040",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "Hands",
+            "opacity": 100,
+            "visible": true
+        },
         {
             "id": "e0ce150f-25e6-4cb5-9796-697fba49ef74",
             "modelName": "GMImageLayer",
@@ -58,17 +69,6 @@
             "isLocked": false,
             "name": "Layer 1",
             "opacity": 100,
-            "visible": true
-        },
-        {
-            "id": "5ea6c639-2f7b-4ae6-9d15-8acb39d0b799",
-            "modelName": "GMImageLayer",
-            "mvc": "1.0",
-            "SpriteId": "e1394334-5904-4b91-bba5-c41da3215040",
-            "blendMode": 0,
-            "isLocked": false,
-            "name": "Hands",
-            "opacity": 19,
             "visible": true
         }
     ],
