@@ -93,4 +93,10 @@ if (reloading = true)
 	speed = 0
 }
 
+//Animating while moving
+if (speed > 0)
+{
+	image_speed = 1
+}
+
 
