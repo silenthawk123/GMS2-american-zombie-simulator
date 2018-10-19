@@ -583,6 +583,14 @@
             }
         },
         {
+            "Key": "74723d0e-6d5c-48b4-98ac-8e955eaf4606",
+            "Value": {
+                "id": "0c132d85-9794-4121-9911-1730a92e2306",
+                "resourcePath": "sprites\\spr_M249_left\\spr_M249_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7684dbee-2ed7-41d3-8b58-421106497722",
             "Value": {
                 "id": "17884cfc-304c-4bf4-abcd-c317068bfa7e",
@@ -1091,14 +1099,6 @@
             "Value": {
                 "id": "4227a7f1-5927-45b5-bb57-b4643b581b52",
                 "resourcePath": "sprites\\spr_Knife_left2\\spr_Knife_left2.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "e94045c1-d35e-4b68-84c4-ce81f32182df",
-            "Value": {
-                "id": "73b7f201-e907-4499-8fc4-984bcac9b955",
-                "resourcePath": "sprites\\spr_eur\\spr_eur.yy",
                 "resourceType": "GMSprite"
             }
         },
