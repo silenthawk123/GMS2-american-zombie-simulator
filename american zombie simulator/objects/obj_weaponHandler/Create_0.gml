@@ -50,6 +50,16 @@ global.FireRate[4] = 3;
 global.sprLeft[4] = spr_AK47_left
 global.sprRight[4] = spr_AK47_right
 global.sound[4] = snd_AK47
+//M249
+global.Dmg[5] = 20
+global.Clipsize[5] = 150
+global.Accuracy[5] = 10
+global.Shots[5] = 1
+global.AUTO[5] = true;
+global.FireRate[5] = 2;
+global.sprLeft[5] = spr_M249_left
+global.sprRight[5] = spr_M249_right
+global.sound[5] = snd_M249
 
 
 //MELEE WEAPONS

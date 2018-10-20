@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "237856ba-43ab-4734-80f4-7c36008eb5b5",
+            "Value": {
+                "id": "20b2b9a1-4d61-425d-be02-2da83e068cdf",
+                "resourcePath": "sounds\\snd_M249\\snd_M249.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "243ac579-d29e-40df-8eb8-ff8b74e428c5",
             "Value": {
                 "id": "d570fc13-2947-48d5-a91f-6c202b24e278",
