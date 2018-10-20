@@ -52,7 +52,7 @@ global.sprRight[4] = spr_AK47_right
 global.sound[4] = snd_AK47
 //M249
 global.Dmg[5] = 20
-global.Clipsize[5] = 150
+global.Clipsize[5] = 126
 global.Accuracy[5] = 10
 global.Shots[5] = 1
 global.AUTO[5] = true;

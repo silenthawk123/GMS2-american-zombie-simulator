@@ -36,7 +36,30 @@ draw_text_transformed(160,32,global.ammo,2,2,0);
 draw_set_color(c_black);
 draw_set_alpha(1)
 
-for (e = 0; e < global.clip; e += 1)
+if (global.clip <= 106)
+{
+	for (e = 0; e < global.clip; e += 1)
 	{
 		draw_sprite(spr_GUI_bullet, 0, 2 + (e * 12), camera_get_view_height(0) - 76)
 	}
+}
+else
+{
+	if (global.clip <= 116)
+	{
+		for (e = 0; e < global.clip; e += 1)
+		{
+			draw_sprite(spr_GUI_bullet, 0, 2 + (e * 11), camera_get_view_height(0) - 76)
+		}
+	}
+	else
+	{
+		for (e = 0; e < global.clip; e += 1)
+		{
+			draw_sprite(spr_GUI_bullet, 0, 2 + (e * 10), camera_get_view_height(0) - 76)
+		}
+	}
+}
+
+
+
