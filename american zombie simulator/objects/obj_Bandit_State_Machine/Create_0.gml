@@ -20,7 +20,7 @@ alarm_set(0,300)
 hp = 20;
 mHp = 20;
 spd = 2;
-myGun = random_range(0,4);
+myGun = random_range(0,5);
 firerate = global.FireRate[myGun];
 accuracy = global.Accuracy[myGun];
 dmg = global.Dmg[myGun];
