@@ -14,12 +14,12 @@ enum Bstates {
 state = Bstates.idle
 
 //Setting the alarms
-alarm_set(0,100)
+alarm_set(0,300)
 
 //Base Stats
 hp = 20;
 mHp = 20;
-spd = 1;
+spd = 2;
 myGun = random_range(0,4);
 firerate = global.FireRate[myGun];
 accuracy = global.Accuracy[myGun];

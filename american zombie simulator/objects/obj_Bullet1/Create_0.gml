@@ -10,5 +10,4 @@ instance_nearest(x,y,obj_Bandit).direction
 -instance_nearest(x,y,obj_Bandit).accuracy
 );
 image_angle = direction;
-speed = 48;
 

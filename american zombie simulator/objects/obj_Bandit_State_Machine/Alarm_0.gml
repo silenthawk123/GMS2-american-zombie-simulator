@@ -5,4 +5,4 @@ if (state = Bstates.idle or state = Bstates.wander)
 	state = choose(Bstates.idle,Bstates.wander)
 }
 
-alarm_set(0,100)
+alarm_set(0,300)

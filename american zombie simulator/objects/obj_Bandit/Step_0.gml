@@ -33,3 +33,12 @@ if (state = Bstates.shoot)
 {
 direction = point_direction(x,y,nearestEnemy.x,nearestEnemy.y)
 }
+
+//Melee Damage
+if instance_exists(obj_meleeWeapon)
+{
+	if (point_distance(x,y,obj_meleeWeapon.x,obj_meleeWeapon.y) < 120)
+	{
+		alarm_set(3,2)
+	}
+}
