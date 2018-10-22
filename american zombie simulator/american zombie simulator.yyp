@@ -754,7 +754,7 @@
             "Key": "a1cb887d-2ead-4ec6-9939-3bb090f4346d",
             "Value": {
                 "id": "71ffa4fc-8880-43fe-85df-13928892a2af",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\Floor1\\Floor1.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -956,6 +956,14 @@
                 "id": "91a432fb-deb7-4a0e-9b0f-4fca32d4dc46",
                 "resourcePath": "sprites\\spr_Knife_left\\spr_Knife_left.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c15f9d62-fc58-429a-bb48-29a9f2861b0e",
+            "Value": {
+                "id": "c9f82be6-b103-475d-b7d1-2d9742746ea3",
+                "resourcePath": "rooms\\Floor2\\Floor2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
