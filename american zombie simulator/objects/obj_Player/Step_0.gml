@@ -85,13 +85,6 @@ speed = 0
 x = round(x/8) * 8
 y = round(y/8) * 8};
 
-//Not moving while reloading
-if (reloading = true)
-{
-	image_speed = 0
-	image_index = 0
-	speed = 0
-}
 
 //Animating while moving
 if (speed > 0)
