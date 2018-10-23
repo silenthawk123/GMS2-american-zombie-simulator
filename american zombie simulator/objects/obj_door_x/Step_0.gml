@@ -1,1 +1,1 @@
-sprite_index = spr_door_y_closed
+sprite_index = spr_door_x_closed
