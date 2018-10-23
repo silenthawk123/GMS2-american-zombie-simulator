@@ -5,10 +5,12 @@ if (AUTO = false && gun != -1 && reloading = 0 && global.clip >= 1 && mouse_chec
 	{
 		repeat(shots) instance_create_layer(x,y,"Weapons",obj_Bullet)
 		global.clip += -1
+		instance_create_layer(x,y,"Collision",obj_noise)
 	}
 	else
 	{
 		instance_create_layer(x,y,"Weapons",obj_Bullet)
 		global.clip += -1
+		instance_create_layer(x,y,"Collision",obj_noise)
 	}
 };
