@@ -49,9 +49,9 @@ if (state = states.idle or state = states.wander)
 	if (position_meeting(x,y,obj_noise))
 	{
 		state = states.wander
-		mp_potential_step(instance_nearest(x,y,obj_noise).x,
+		mp_potential_step_object(instance_nearest(x,y,obj_noise).x,
 		instance_nearest(x,y,obj_noise).y,
-		spd * 0.5, obj_noise)
+		spd * 0.5, obj_collision)
 	}
 }
 
