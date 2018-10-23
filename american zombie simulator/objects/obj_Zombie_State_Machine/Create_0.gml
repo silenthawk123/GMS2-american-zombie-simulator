@@ -2,7 +2,8 @@ enum states {
 	idle = 1,
 	wander = 2,
 	alert = 3,
-	attack = 4
+	attack = 4,
+	sound = 5
 };
 
 

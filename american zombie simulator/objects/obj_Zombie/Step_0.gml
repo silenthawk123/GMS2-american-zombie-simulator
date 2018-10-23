@@ -14,7 +14,7 @@ if(state = states.idle or state = states.attack)
 {image_speed = 0
 	image_index = 0
 	speed = 0};
-	if(state = states.alert or state = states.wander)
+	if(state = states.alert or state = states.wander or state = states.sound)
 {image_speed = 1};
 	
 //Attacking The Player

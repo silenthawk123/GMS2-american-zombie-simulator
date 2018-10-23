@@ -42,3 +42,14 @@ if instance_exists(obj_meleeWeapon)
 		alarm_set(3,2)
 	}
 }
+
+//Reloading
+if (Bclip = 0 && reloading != 1)
+{
+	reloading = 1
+	alarm_set(4,120)
+	instance_create_layer(x,y-80,"GUI",obj_loading1)
+}
+
+
+

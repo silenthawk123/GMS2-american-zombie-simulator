@@ -26,3 +26,4 @@ accuracy = global.Accuracy[myGun];
 dmg = global.Dmg[myGun];
 shots = global.Shots[myGun];
 Bclip = global.Clipsize[myGun]
+reloading = 0;
