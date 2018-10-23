@@ -8,3 +8,5 @@ mp_grid_add_instances(global.grid,obj_collision,false);
 mp_grid_add_instances(global.grid,obj_Player,false);
 
 
+alarm_set(0,60)
+
