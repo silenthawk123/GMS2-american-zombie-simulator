@@ -54,5 +54,9 @@ if instance_exists(obj_meleeWeapon)
 	}
 }
 
-
+//Moving to Goal
+if (state = Bstates.wander)
+{
+	mp_potential_step(Goalx,Goaly,spd,false)
+}
 
