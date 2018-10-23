@@ -1,4 +1,4 @@
-if (distance_to_object(obj_Player) < 200 &&
+if (distance_to_object(obj_Player) < 100 &&
 position_meeting(mouse_x,mouse_y,self))
 {
 previousA = A
